@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#parentTable {
+  overflow: scroll;
+  -ms-overflow-style: none; /* IE y Edge */
+  scrollbar-width: none; /* Firefox */
+}
+#parentTable::-webkit-scrollbar {
+  display: none; /* Oculta el scrollbar */
+}
