@@ -1,15 +1,15 @@
+# 📌 Documentación sobre la Implementación del Componente
+
+Esta guía proporciona instrucciones detalladas para instalar y configurar correctamente el paquete **components-functions-grafosoft** en tu proyecto.
+
 > [!NOTE]
-> Useful information that users should know, even when skimming content.
+> Información útil que los usuarios deben conocer, incluso al revisar rápidamente el contenido.
 
-# 📌 Documentación sobre la Implementación del Componente
-
-Esta guía proporciona instrucciones detalladas para instalar y configurar correctamente el paquete **components-functions-grafosoft** en tu proyecto.
-
-## 🚀 1. Instalación de Paquetes Necesarios  
+## 🚀 1. Instalación de Paquetes Necesarios  
 
 Para garantizar el correcto funcionamiento del paquete, es necesario contar con las siguientes dependencias instaladas en tu proyecto:
 
-json
+```json
 {
   "next": ">=14.1.0",
   "next-themes": ">=0.2.1",
@@ -20,50 +20,55 @@ json
   "tailwindcss": ">=3.4.3",
   "typescript": ">=5.0.4"
 }
+```
 
+### 📌 Instalación rápida de dependencias  
+Ejecuta el siguiente comando en la terminal de tu proyecto para instalar todas las dependencias necesarias automáticamente:  
 
-### 📌 Instalación rápida de dependencias  
-Ejecuta el siguiente comando en la terminal de tu proyecto para instalar todas las dependencias necesarias automáticamente:  
-
-sh
+```sh
 npm install next@latest next-themes@latest postcss@latest react@latest react-dom@latest tailwind-variants@latest tailwindcss@latest typescript@latest
+```
 
-
-## 📦 2. Instalación del Paquete  
+## 📦 2. Instalación del Paquete  
 
 Para agregar **components-functions-grafosoft** a tu proyecto, ejecuta el siguiente comando en la terminal:  
 
-sh
+```sh
 npm i components-functions-grafosoft
+```
 
-
-Esto descargará e integrará el paquete en tu entorno de desarrollo.
+Esto descargará e integrará el paquete en tu entorno de desarrollo.
 
 ---
 
-Si necesitas más detalles sobre su uso o configuración, revisa la documentación oficial o consulta el código fuente del paquete. 🚀
+Si necesitas más detalles sobre su uso o configuración, revisa la documentación oficial o consulta el código fuente del paquete. 🚀
 
-# Componentes y Funciones
+### 🌐 [Página de Prueba](https://codesandbox.io/p/github/JhonDavidHernandezCampus/componente/main?import=true)
 
-## Componentes
-- `TaxView`: Componente que lista y agrega impuestos a un producto
-- `TableBuyComponent`: Tabla de compra y venta de productos
-- `TableAccounting`: Tabla para la realización de Nóminas y Contabilidad (Movimientos contables)
-- `SearchSelectedProduct`: Componentes de búsqueda de productos
-- `AutoComplete`: AutoComplete
-- `WarningInvoice`: Alerta reutilizable
+---
 
-## Funciones
-- `TruncateText`: Trunca un texto dependiendo del tamaño especificado por los parámetros
-- `calculateProductBase`: Calcula la base del producto
-- `calculateTax`: Calcula el impuesto de un producto vasado en la base
-- `flattenObject`: Función para convertir un objeto a un objeto plano
-- `unflattenObject`: Función para convertir objeto plano a un objeto 
-- `formatNumToStr`: Formatea un número con puntos y comas (Retorna una cadena)
-- `formatNumToNum`: Formatea un número con puntos y comas (Retorna un Numero (Float))
-- `formatNumCompact`: Formatea un número solo con puntos para separar  (Retorna una cadena)
-- `generateGuid`: Crea un GUID  (Globally Unique Identifier)
-- `formatAccoutingProduct`: Arregla los elementos para que puedan ser utilizados por el componente de 'TableAccounting'
+## 🛠️ Componentes y Funciones
 
+### Componentes
+- **TaxView**: Componente que lista y agrega impuestos a un producto.
+- **TableBuyComponent**: Tabla de compra y venta de productos.
+- **TableAccounting**: Tabla para la realización de nóminas y contabilidad (movimientos contables).
+- **SearchSelectedProduct**: Componente de búsqueda de productos.
+- **AutoComplete**: Componente de autocompletado.
+- **WarningInvoice**: Alerta reutilizable.
 
-## Licencia
+### Funciones
+- **TruncateText**: Trunca un texto dependiendo del tamaño especificado por los parámetros.
+- **calculateProductBase**: Calcula la base del producto.
+- **calculateTax**: Calcula el impuesto de un producto basado en la base.
+- **flattenObject**: Convierte un objeto a un objeto plano.
+- **unflattenObject**: Convierte un objeto plano a un objeto.
+- **formatNumToStr**: Formatea un número con puntos y comas (retorna una cadena).
+- **formatNumToNum**: Formatea un número con puntos y comas (retorna un número float).
+- **formatNumCompact**: Formatea un número solo con puntos para separar (retorna una cadena).
+- **generateGuid**: Crea un GUID (Globally Unique Identifier).
+- **formatAccountingProduct**: Arregla los elementos para que puedan ser utilizados por el componente de 'TableAccounting'.
+
+---
+
+¡Gracias por usar **components-functions-grafosoft**! Si tienes alguna pregunta, no dudes en consultar la documentación o abrir un issue en el repositorio.
